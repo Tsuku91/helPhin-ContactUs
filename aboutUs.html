@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelPhin</title>
+    <link rel="icon" href="assets/images/logo-short.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="sticky top-0 bg-x-navy z-40 flex items-center justify-between gap-4 px-4 sm:px-12 py-4 border-b-2 border-x-yellow"
+    >
+      <a href="#">
+        <img
+          id="header-logo"
+          src="./assets/images/logo.png"
+          alt="logo"
+          class="h-10 opacity-0"
+        />
+        <span class="sr-only">helPhin</span>
+      </a>
+
+      <button
+        id="mobile-nav-trigger"
+        class="block sm:hidden rounded-md p-1.5 hover:bg-x-blue"
+      >
+        <img src="./assets/images/icon-menu.png" alt="menu" class="h-6" />
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <div class="items-center gap-6 hidden sm:flex 2xl:text-xl text-white">
+        <a href="index.html">Home</a>
+      </div>
+    </header>
+
+    <!-- Team -->
+    <section
+      id="team"
+      class="bg-x-lightblue p-4 rounded-t-[2rem] relative mt-20"
+    >
+      <div class="relative max-w-4xl mx-auto">
+        <div
+          class="absolute -top-[3.5rem] right-4 lg:right-0 bg-x-lightblue rounded-[5rem] p-3 z-20"
+        >
+          <h1
+            class="text-xl sm:text-2xl font-bold font-mplus px-8 sm:px-10 py-3 sm:py-4 bg-x-blue rounded-[5rem]"
+          >
+            Meet Our Team
+          </h1>
+        </div>
+      </div>
+
+      <div
+        class="rounded-t-[2rem] px-4 pt-12 pb-36 bg-x-extra-lightblue font-mplus z-10 relative"
+      >
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
+          <img src="./assets/images/team-1.png" alt="team 1" />
+          <img src="./assets/images/team-2.png" alt="team 2" />
+          <img src="./assets/images/team-3.png" alt="team 3" />
+          <img src="./assets/images/team-4.png" alt="team 4" />
+          <img src="./assets/images/team-5.png" alt="team 5" />
+          <img src="./assets/images/team-6.png" alt="team 6" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

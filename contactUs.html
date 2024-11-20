@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | HelPhin</title>
+    <link rel="icon" href="assets/images/logo-short.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="font-sans antialiased text-white flex-col">
+    <!-- Header -->
+    <div class="min-h-screen flex-col">
+      <header
+        class="sticky top-0 bg-x-navy z-40 flex items-center justify-between gap-4 px-4 sm:px-12 py-4 border-b-2 border-x-yellow"
+      >
+        <a href="#">
+          <img
+            id="header-logo"
+            src="./assets/images/logo.png"
+            alt="logo"
+            class="h-10"
+          />
+          <span class="sr-only">helPhin</span>
+        </a>
+
+        <button
+          id="mobile-nav-trigger"
+          class="block sm:hidden rounded-md p-1.5 hover:bg-x-blue"
+        >
+          <img src="./assets/images/icon-menu.png" alt="menu" class="h-6" />
+          <span class="sr-only">Menu</span>
+        </button>
+
+        <div class="items-center gap-6 sm:flex 2xl:text-xl">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#team">Team</a>
+          <a href="#album">Album</a>
+        </div>
+      </header>
+
+      <!-- CUSTOMER SERVICE SEBELUM ANIMASI -->
+      <section class="grid pb-20" id="customerService">
+        <img
+          src="background.svg"
+          alt="hero"
+          class="absolute inset-0 w-full h-full object-cover of"
+        />
+        <img
+          src="gelombang n.svg"
+          alt="hero"
+          class="absolute right-0 top-0 h-full"
+          id="gelombang-n"
+        />
+        <div class="z-10" id="konten">
+          <h1>Customer Service</h1>
+          <h3>
+            Hubungi kami untuk mendapatkan solusi cepat atas pertanyaan atau
+            masalah Anda.
+          </h3>
+          <button class="btn-primary" onClick="hubungiKami()">
+            Hubungi Kami
+          </button>
+          <div id="icon-icon">
+            <a href="#"
+              ><img src="aset/Frame 6606.svg" alt="icon twitter" class="h-13"
+            /></a>
+            <a href="#"
+              ><img src="aset/Frame 6607.svg" alt="icon twitter" class="h-13"
+            /></a>
+            <a href="#"
+              ><img src="aset/Frame 6608.svg" alt="icon twitter" class="h-13"
+            /></a>
+            <a href="#"
+              ><img src="aset/Frame 6611.svg" alt="icon twitter" class="h-13"
+            /></a>
+            <a href="#"
+              ><img src="aset/Frame 6646.svg" alt="icon twitter" class="h-13"
+            /></a>
+            <a href="#"
+              ><img src="aset/Frame 6647.svg" alt="icon twitter" class="h-13"
+            /></a>
+          </div>
+        </div>
+
+        <!-- CUSTOMER SERVICE SETELAH ANIMASI -->
+        <div class="hidden" id="hiddenIcon">
+          <div id="maskot-kiri">
+            <img src="./aset/CMO mode.png" alt="" />
+          </div>
+          <div id="contact-section">
+            <div class="form-container">
+              <h1>Contact Us</h1>
+              <h3>
+                Hubungi kami untuk mendapatkan solusi cepat atas pertanyaan atau
+                masalah Anda.
+              </h3>
+              <form>
+                <input type="text" placeholder="Nama Lengkap" />
+                <input type="email" placeholder="Email" />
+                <textarea placeholder="Pesan Anda"></textarea>
+                <button type="submit" id="kirim-button">Kirim</button>
+              </form>
+            </div>
+          </div>
+          <div id="maskot-kanan">
+            <img src="./aset/CTO2mode.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
