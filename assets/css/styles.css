@@ -1540,10 +1540,13 @@ textarea {
   align-self: flex-end;
 }
 
-/* Responsif */
-@media (max-width: 650px) {
+/* Responsif Page Contact Us*/
+@media (max-width: 640px) {
   #konten h1 {
     font-size: 50px;
+  }
+  #navbar-contactus {
+    display: none;
   }
 }
 
@@ -1551,5 +1554,12 @@ textarea {
   #icon-icon {
     margin-top: 300px;
     max-width: 380px;
+  }
+}
+
+@media (max-width: 1620px) {
+  #maskot-kiri,
+  #maskot-kanan {
+    display: none;
   }
 }

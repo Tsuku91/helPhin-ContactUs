@@ -14,12 +14,7 @@
         class="sticky top-0 bg-x-navy z-40 flex items-center justify-between gap-4 px-4 sm:px-12 py-4 border-b-2 border-x-yellow"
       >
         <a href="#">
-          <img
-            id="header-logo"
-            src="./assets/images/logo.png"
-            alt="logo"
-            class="h-10"
-          />
+          <img src="./assets/images/logo.png" alt="logo" class="h-10" />
           <span class="sr-only">helPhin</span>
         </a>
 
@@ -31,13 +26,29 @@
           <span class="sr-only">Menu</span>
         </button>
 
-        <div class="items-center gap-6 sm:flex 2xl:text-xl">
+        <div
+          class="items-center gap-6 sm:flex 2xl:text-xl"
+          id="navbar-contactus"
+        >
           <a href="#">Home</a>
           <a href="#about">About</a>
           <a href="#team">Team</a>
           <a href="#album">Album</a>
+          <a href="#contact">Contact</a>
         </div>
       </header>
+
+      <!-- Mobile navigation -->
+      <aside
+        id="mobile-nav"
+        class="fixed inset-0 z-30 top-[4.5rem] -translate-x-full p-4 flex flex-col items-start gap-6 text-xl font-semibold bg-x-navy/80 backdrop-blur flex-grow overflow-y-auto"
+      >
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#album">Album</a>
+        <a href="#contact">Contact</a>
+      </aside>
 
       <!-- CUSTOMER SERVICE SEBELUM ANIMASI -->
       <section class="grid pb-20" id="customerService">
@@ -47,7 +58,7 @@
           class="absolute inset-0 w-full h-full object-cover of"
         />
         <img
-          src="gelombang n.svg"
+          src="./aset/gelombang n.svg"
           alt="hero"
           class="absolute right-0 top-0 h-full"
           id="gelombang-n"

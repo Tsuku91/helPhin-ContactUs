@@ -15,12 +15,13 @@ if (headerLogo) {
   window.addEventListener("scroll", () => {
     headerLogo.classList.toggle(
       "opacity-0",
-      window.scrollY < aboutSection.offsetTop - 300
+      window.scrollY < aboutSection.offSetTop - 300
     );
   });
 }
 
 // Page Contact Us
+
 function hubungiKami() {
   console.log("Tombol Hubungi Kami ditekan");
   const konten = document.getElementById("konten");
